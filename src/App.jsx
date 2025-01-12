@@ -5,6 +5,8 @@ import arrow from './assets/down-arrow.svg'
 import './App.css'
 import RevenueCard from './components/RevenueCard'
 import Header from './components/Header'
+import Transactions from './components/Transactions'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -33,6 +35,7 @@ function App() {
           <button className='bg-gray-200 text-gray-600 rounded-xl p-1 px-3 mr-5'>Payouts (22)</button>
           <button className='bg-blue-700 text-white rounded-xl p-1 px-3 mr-5'>Refunds (6)</button>
         </div>
+        <Transactions />
       </div>
 
     </div>
