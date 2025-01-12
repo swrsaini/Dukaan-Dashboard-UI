@@ -15,7 +15,7 @@ function App() {
       <div className='hidden lg:block w-[15%]'>
         <Sidebar />
       </div>
-      <div className='bg-gray-50 w-[85%]'>
+      <div className='bg-gray-50 w-full lg:w-[85%]'>
 
         <Header></Header>
         <div className='m-5'>
